@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="PostRequest.Project_PostRequest"/>
+      <class name="GetRequest.Project_GetRequest"/>
+      <class name="DeleteRequest.Project_DeleteRequest"/>
+      <class name="PutRequest.Project_PutRequest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
